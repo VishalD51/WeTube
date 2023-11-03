@@ -1,0 +1,50 @@
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 20px;
+    .menu-logo{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        .menu{
+            cursor: pointer;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            
+            .logo-text{
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+    }
+    .search{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        min-width: 500px;
+        input{
+            border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    padding: 5px 10px;
+    border-right: 1px solid black;
+    width: 100%;
+        }
+        button{
+            font-size: 18px;
+    padding: 5px 10px;
+    border-left: none;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    cursor: pointer;
+        }
+
+    }
+    .login{
+        
+    }
+}
