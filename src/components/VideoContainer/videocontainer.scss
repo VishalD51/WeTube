@@ -1,0 +1,16 @@
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    cursor: pointer;
+    .video-card{
+        max-width: 300px;
+        box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+        .thumbnail{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
