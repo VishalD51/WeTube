@@ -1,12 +1,12 @@
 import React from "react";
 import Sidebar from "../SideBar";
-import Maincontainer from "../Maincontainer";
 import "./body.scss";
+import { Outlet } from "react-router-dom";
 const Body = () => {
   return (
     <div className="body-main">
       <Sidebar />
-      <Maincontainer />
+      <Outlet />
     </div>
   );
 };
